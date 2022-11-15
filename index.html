@@ -17,7 +17,7 @@
 <body>
     <h1>CSS Selectors Cheatsheet</h1>
 
-<!--Basic-->
+<!--Basic Selectors-->
     <div class="container basic">
         <h1>Basic</h1>
         <table> 
@@ -69,7 +69,7 @@
         </table>
     </div> 
 
-    <!--Combination-->
+    <!--Combination Selectors-->
     <div class="container combination">
         <h1>Combination</h1>
         <table> 
@@ -144,6 +144,38 @@
         </table>
     </div> 
 
+        <!--Pseudo Element Selectors-->
+    <div class="container pseudo-element">
+        <h1>Pseudo Element</h1>
+        <table> 
+            <tr> 
+                <th>Name</th>
+                <th>CSS</th>
+                <th>Description</th>
+                <th>Results</th>
+            </tr>
+            <tr> 
+                <td class="name">Before <span>selector</span></td>
+                <td class="css">div::before</td>
+                <td class="description">Creates an empty element directly before the children of selected element <br>
+                    <span>Select anchors that are inside a div</span>
+                </td>
+                <td class="results">
+                    <img src="/resources/images/descendant-selector.png" alt="Descendant Selector Example"> 
+                </td>
+            </tr>
+
+            <tr> 
+                <td class="name">After <span>selector</span></td>
+                <td class="css">div::after</td>
+                <td class="description">Creates an empty element directly after the children of selected element</span>
+                </td>
+                <td class="results">
+                    <img src="/resources/images/direct-child-selector.png" alt="Direct Child Selector Example"> 
+                </td>
+            </tr>      
+        </table>
+    </div>
 
 
 
