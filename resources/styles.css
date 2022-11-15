@@ -1,0 +1,87 @@
+ * { 
+    font-family: 'Quicksand', sans-serif;
+    box-sizing: border-box;
+ }
+
+body { 
+    background-color: #343434; 
+ }
+
+h1 { 
+    color: #fff; 
+    font-family: 'Quicksand', sans-serif;
+    padding-left: 15px; 
+    text-align: center;
+}
+
+div h1 {
+    text-align: left;
+}
+
+table { 
+    width: 100%; 
+    border-collapse: collapse; 
+    color: #222; 
+}
+
+th { 
+    font-size: 24px; 
+    text-align: center; 
+    padding-top: 12px; 
+    padding-bottom: 12px;
+    color: #888; 
+    font-family: 'Quicksand', sans-serif;
+}
+
+td { 
+    border-bottom: 1px solid #ddd; 
+    color: #fff; 
+    padding: 10px; 
+    font-family: 'Quicksand', sans-serif;
+    max-width: 75px; 
+}
+
+
+img { 
+    margin: 0 auto;
+    display: block;
+    width: 65%;
+    height: auto; 
+}
+
+
+.name {  
+    font-size: 24px;
+    padding-left: 10px; ;
+}
+
+td span { 
+    font-size: 20px; 
+    color: #888;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: lighter;
+}
+
+.description { 
+    font-size: 20px;
+}
+
+
+.description span { 
+    color: #888; 
+    font-size: 20px;
+}
+
+.css { 
+    text-align: center;
+    font-size: 30px; 
+    font-family: 'Nanum Gothic Coding', monospace;
+}
+
+.container { 
+    background-color: #222;
+    padding: 10px; 
+    margin: 30px; 
+    border-radius: 20px; 
+    padding-bottom: 40px;
+}

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/resources/styles.css"> 
+
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&family=Quicksand:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <title>Qetsia's CSS Selectors Cheatsheet</title>
+</head>
+<body>
+    <h1>CSS Selectors Cheatsheet</h1>
+
+<!--Basic-->
+    <div class="container basic">
+        <h1>Basic</h1>
+        <table> 
+            <tr> 
+                <th>Name</th>
+                <th>CSS</th>
+                <th>Description</th>
+                <th>Results</th>
+            </tr>
+            <tr> 
+                <td class="name">Universal <span>selector</span></td>
+                <td class="css">*</td>
+                <td class="description">Select all elements</td>
+                <td class="results">
+                    <img src="/resources/images/universal-selector.png" alt="Universal Selector Example"> 
+                </td>
+            </tr>
+            <tr> 
+                <td class="name">Type <span>selector</span></td>
+                <td class="css">div</td>
+                <td class="description">
+                    Select elements of that type<br>
+                    <span>Select div elements</span>
+                </td>
+                <td class="results">
+                    <img src="/resources/images/type-selector.png" alt="Type Selector Example"> 
+                </td>
+            </tr>
+            <tr> 
+                <td class="name">Class <span>selector</span></td>
+                <td class="css">.c</td>
+                <td class="description">Select elements with that class<br>
+                    <span>Select elements with the c class</span>
+                </td>
+                <td class="results">
+                    <img src="/resources/images/class-selector.png" alt="Class Selector Example"> 
+                </td>
+            </tr>
+            <tr> 
+                <td class="name">Id <span>selector</span></td>
+                <td class="css">#id</td>
+                <td class="description">Select elements with that id<br>
+                    <span>Select elements with the i id<br> *it is best practice not to use ids in CSS</span>
+                </td>
+                <td class="results">
+                    <img src="/resources/images/id-selector.png" alt="Id Selector Example"> 
+                </td>
+            </tr>
+        </table>
+    </div> 
+
+    <!--Combination-->
+    <div class="container combination">
+        <h1>Combination</h1>
+        <table> 
+            <tr> 
+                <th>Name</th>
+                <th>CSS</th>
+                <th>Description</th>
+                <th>Results</th>
+            </tr>
+            <tr> 
+                <td class="name">Descendant <span>selector</span></td>
+                <td class="css">div a</td>
+                <td class="description">Select elements that are descendants of the first element <br>
+                    <span>Select anchors that are inside a div</span>
+                </td>
+                <td class="results">
+                    <img src="/resources/images/descendant-selector.png" alt="Descendant Selector Example"> 
+                </td>
+            </tr>
+
+            <tr> 
+                <td class="name">Direct Child <span>selector</span></td>
+                <td class="css">div > a </td>
+                <td class="description">Select elements that are direct children of the first element <br>
+                    <span>Select anchors that are direct children of div</span>
+                </td>
+                <td class="results">
+                    <img src="/resources/images/direct-child-selector.png" alt="Direct Child Selector Example"> 
+                </td>
+            </tr>
+
+            <tr> 
+                <td class="name">General Sibling <br><span>selector</span></td>
+                <td class="css">div ~ a</td>
+                <td class="description">Select elements that are siblings of the first element and come after the first element <br>
+                    <span>Select all anchors that are siblings of div and come after the div </span>
+                </td>
+                <td class="results">
+                    <img src="/resources/images/general-sibling-selector.png" alt="General Sibling Selector Example"> 
+                </td>
+            </tr>
+            <tr> 
+                <td class="name">Adjacent Sibling <br><span>selector</span></td>
+                <td class="css">div + a</td>
+                <td class="description">Select elements that are siblings of the first element and directly after the first element<br>
+                    <span>Select all anchors that are siblings of div and come directly after the div </span>
+                </td>
+                <td class="results">
+                    <img src="/resources/images/adjacent-sibling-selector.png" alt="Adjacent Sibling Selector Example"> 
+                </td>
+            </tr>
+            <tr> 
+                <td class="name">Or <span>selector</span></td>
+                <td class="css">div, a</td>
+                <td class="description">Select elements that match any selector in the list<br>
+                    <span>Select all anchors and all divs</span>
+                </td>
+                <td class="results">
+                    <img src="/resources/images/or-selector.png" alt="Or Selector Example"> 
+                </td>
+            </tr>
+            <tr> 
+                <td class="name">And <span>selector</span></td>
+                <td class="css">div.c</td>
+                <td class="description">Select elements that match all the selector combinations<br>
+                    <span>Select all divs with the class c</span>
+                </td>
+                <td class="results">
+                    <img src="/resources/images/and-selector.png" alt="And Selector Example"> 
+                </td>
+            </tr>
+        </table>
+    </div> 
+
+
+
+
+    
+</body>
+</html>
