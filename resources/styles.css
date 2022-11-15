@@ -45,7 +45,7 @@ td {
 img { 
     margin: 0 auto;
     display: block;
-    width: 65%;
+    width: 80%;
     height: auto; 
 }
 
@@ -72,6 +72,7 @@ td span {
     font-size: 20px;
 }
 
+/* Column Two: CSS Styling */
 .css { 
     text-align: center;
     font-size: 30px; 
